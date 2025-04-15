@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.12">
+  <diagram name="第 1 页" id="8o7UcqT5gR5OmiEXhHoG">
+    <mxGraphModel dx="1215" dy="657" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="f5Mhd6XvQ6sr-KnToCeB-2" target="f5Mhd6XvQ6sr-KnToCeB-14" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-40" value="rest1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f5Mhd6XvQ6sr-KnToCeB-28" vertex="1" connectable="0">
+          <mxGeometry x="0.0889" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-2" value="2.rest的方式通过AP查询结果表&amp;nbsp; &amp;nbsp;（已经证明了可以负载均衡）" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="490" y="240" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="f5Mhd6XvQ6sr-KnToCeB-6" target="f5Mhd6XvQ6sr-KnToCeB-2" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="f5Mhd6XvQ6sr-KnToCeB-6" target="f5Mhd6XvQ6sr-KnToCeB-13" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-33" value="conn2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f5Mhd6XvQ6sr-KnToCeB-21" vertex="1" connectable="0">
+          <mxGeometry x="-0.2368" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" parent="1" source="f5Mhd6XvQ6sr-KnToCeB-6" target="f5Mhd6XvQ6sr-KnToCeB-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-39" value="conn1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f5Mhd6XvQ6sr-KnToCeB-38" vertex="1" connectable="0">
+          <mxGeometry x="-0.0177" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-6" value="1.connection的方式通过电话号码找AP" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="110" y="240" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-12" value="集群1 ap值1" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="90" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-13" value="集群2 ap值2" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="250" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-14" value="集群1 值V2" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
+          <mxGeometry x="470" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-15" value="集群2 值V4" style="whiteSpace=wrap;html=1;aspect=fixed;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="660" y="370" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.613;entryY=0.058;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620.96" y="300" as="sourcePoint" />
+            <mxPoint x="710" y="374.64" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="610.96" y="300" />
+              <mxPoint x="610.96" y="335" />
+              <mxPoint x="709.96" y="335" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-41" value="rest2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f5Mhd6XvQ6sr-KnToCeB-31" vertex="1" connectable="0">
+          <mxGeometry x="0.1143" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f5Mhd6XvQ6sr-KnToCeB-43" value="&lt;font&gt;目前第一步造的ap值都是一样的，仅仅根据最后的结果V2和V4都有，无法确认conn1和connec2都有处理请求，需要造不同的AP值&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" parent="1" vertex="1">
+          <mxGeometry x="160" y="500" width="470" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
