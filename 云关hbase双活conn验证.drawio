@@ -68,34 +68,34 @@
         <mxCell id="f5Mhd6XvQ6sr-KnToCeB-43" value="&lt;font&gt;目前第一步造的ap值都是一样的，仅仅根据最后的结果V2和V4都有，无法确认conn1和connec2都有处理请求，需要造不同的AP值&lt;/font&gt;" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="160" y="500" width="470" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="csJ0kRCY4yboLNJ_zuVV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="csJ0kRCY4yboLNJ_zuVV-1" target="csJ0kRCY4yboLNJ_zuVV-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="csJ0kRCY4yboLNJ_zuVV-1" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="140" y="640" width="200" height="200" as="geometry" />
+          <mxGeometry x="120" y="640" width="200" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="csJ0kRCY4yboLNJ_zuVV-5" value="1、电话号码找AP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-1">
-          <mxGeometry x="-10" width="120" height="30" as="geometry" />
+        <mxCell id="csJ0kRCY4yboLNJ_zuVV-5" value="1、conn方式电话号码找AP" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-1">
+          <mxGeometry width="170" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="csJ0kRCY4yboLNJ_zuVV-6" value="集群1&amp;nbsp; 对应的是AP1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-1">
-          <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
+        <mxCell id="csJ0kRCY4yboLNJ_zuVV-6" value="集群1&amp;nbsp; 号码x对应的是AP1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-1">
+          <mxGeometry x="30" y="40" width="150" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="csJ0kRCY4yboLNJ_zuVV-7" value="集群2&amp;nbsp; 对应的是AP2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-1">
-          <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
+        <mxCell id="csJ0kRCY4yboLNJ_zuVV-7" value="集群2&amp;nbsp; 号码x对应的是AP2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-1">
+          <mxGeometry x="30" y="120" width="150" height="60" as="geometry" />
         </mxCell>
         <mxCell id="csJ0kRCY4yboLNJ_zuVV-2" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
-          <mxGeometry x="490" y="640" width="200" height="200" as="geometry">
+          <mxGeometry x="470" y="640" width="210" height="200" as="geometry">
             <mxRectangle x="490" y="640" width="50" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="csJ0kRCY4yboLNJ_zuVV-8" value="&lt;br&gt;&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;集群1 AP1对应V2&amp;nbsp; &amp;nbsp; &amp;nbsp; 集群1&amp;nbsp; AP2对应V3&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-2">
+        <mxCell id="csJ0kRCY4yboLNJ_zuVV-8" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;集群1&amp;nbsp; AP1对应V2&amp;nbsp; &amp;nbsp; &amp;nbsp; 集群1&amp;nbsp; AP2对应V3&amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-2">
           <mxGeometry x="30" y="40" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="csJ0kRCY4yboLNJ_zuVV-9" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-2">
+        <mxCell id="csJ0kRCY4yboLNJ_zuVV-10" value="2.rest方式根据AP找最终结果&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-2">
+          <mxGeometry width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="csJ0kRCY4yboLNJ_zuVV-13" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;集群2&amp;nbsp; AP1对应V4 &amp;nbsp; &amp;nbsp; 集群2&amp;nbsp; AP2对应V5 &amp;nbsp; &amp;nbsp;&lt;/span&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-2">
           <mxGeometry x="30" y="120" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="csJ0kRCY4yboLNJ_zuVV-10" value="2.AP找结果&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="csJ0kRCY4yboLNJ_zuVV-2">
-          <mxGeometry x="-5" width="90" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="csJ0kRCY4yboLNJ_zuVV-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=0.389;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="csJ0kRCY4yboLNJ_zuVV-2" source="csJ0kRCY4yboLNJ_zuVV-8" target="csJ0kRCY4yboLNJ_zuVV-10">
-          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
